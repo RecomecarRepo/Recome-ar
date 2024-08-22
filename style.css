@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Serif 4", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+}
+
+.owl-dot span {
+    background-color: #824D5D !important;
+}
+
+.active span {
+    background-color: #ebcd93 !important;
+    border: 1px solid #824D5D;
+}
+
+.header-timer {
+    background-color: rgb(130, 77, 93);
+    color: white;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-timer span {
+    color: #ebcd93;
+}
+
+.header-content {
+    background-image: url(assets/imgs/casal-por-do-sol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(51 19 19 / 66%);
+    height: 638px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-content>div {
+    margin-left: 200px;
+    width: 750px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+    cursor: default;
+}
+
+.header-content>div>p {
+    margin-bottom: 30px;
+}
+
+.header-content>div span {
+    text-decoration: underline;
+    color: rgb(130, 77, 93);
+    font-weight: bolder;
+}
+
+.header-content a {
+    text-decoration: none;
+    background-color: rgb(130, 77, 93);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
+    transition: all 100ms ease-in-out;
+}
+
+.header-content a:hover {
+    background-color: rgb(136, 99, 110);
+}
+
+.header-content h1 {
+    font-size: 51px;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 45px;
+}
+
+main {
+    background-color: rgb(238, 234, 222);
+}
+
+.main-section-capitulos {
+    padding: 180px;
+}
+
+.main-section-capitulos h1 {
+    font-size: 51px;
+    margin-bottom: 90px;
+}
+
+.carrosel-capitulos {
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-item-capitulo {
+    background-color: rgb(231, 225, 204);
+    width: 277px;
+    height: 247px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    margin: auto;
+}
+
+.div-animation-hover {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: all 150ms ease-in-out;
+    border-radius: 15px;
+}
+
+.div-animation-hover button {
+    border-radius: 50px;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 150ms ease-in-out;
+    border: 1px solid rgb(180, 177, 177);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.div-animation-hover h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(238, 234, 222);
+}
+
+.div-animation-hover button:hover {
+    background-color: rgb(233, 206, 206);
+}
+
+.carousel-item-capitulo:hover .div-animation-hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.carousel-item-capitulo img {
+    width: 100% !important;
+    position: absolute;
+    z-index: 0;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.resumo-capitulos {
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 50px;
+    transition: all 200ms ease-in-out;
+    position: relative;
+    display: flex;
+    justify-content: start;
+
+}
+
+.resumo-capitulo-item {
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    opacity: 0;
+    width: 50%;
+}
+
+.resumo-capitulo-item h3 {
+    font-size: 35px;
+}
+
+.resumo-capitulo-item p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.main-feedback {
+    background-color: rgb(130, 77, 93);
+    padding: 100px 0px;
+}
+
+.main-feedback h1 {
+    text-align: center;
+    font-size: 51px;
+    color: white;
+}
+
+.main-feedback h1 span {
+    color: #ebcd93;
+}
+
+.main-feedback video {
+    margin: auto;
+    display: block;
+    margin-top: 80px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.main-feedback-content {
+    width: 80%;
+    margin: auto;
+}
+
+.main-feedback-comentarios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main-feedback-comentarios img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.main-feedback a {
+    text-decoration: none;
+    background-color: #eed7aa;
+    font-weight: bold;
+    color: rgb(110, 40, 61);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: none;
+    transition: all 100ms ease-in-out;
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+.main-feedback a:hover {
+    background-color: #dac7a2;
+}
+
+.main-brinde {
+    padding: 100px 0px;
+}
+
+.main-brinde h1 {
+    text-align: center;
+    font-size: 51px;
+}
+
+.main-brinde h1 span {
+    color: rgb(110, 40, 61);
+    text-decoration: underline;
+}
+
+.subtitulo-brinde {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.brinde-capitulos-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.brinde-capitulo-card-item {
+    background-color: rgb(130, 77, 93);
+    padding: 80px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    width: 300px;
+    border-radius: 20px;
+    color: rgb(238, 234, 222);
+}
+
+.brinde-capitulo-card-item h2 {
+    font-size: 16px;
+}
+
+.brinde-capitulo-card-item p {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.brinde-circulo {
+    background-color: rgb(130, 77, 93);
+    border: 10px solid rgb(238, 234, 222);
+    color: rgb(238, 234, 222);
+    font-size: 45px;
+    position: absolute;
+    transform: translateY(-130px);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.main-beneficios {
+    background-image: url(assets/imgs/casal-jantando.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(51, 19, 19, 0.596);
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.beneficios-content {
+    width: 600px;
+    height: 100%;
+    background-color: rgb(130, 77, 93);
+    color: white;
+    padding: 0px 30px;
+}
+
+.beneficios-content h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.beneficios-content p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.beneficios-content ul {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.beneficios-content ul li {
+    margin-top: 20px;
+    text-shadow: none;
+    font-size: 20px;
+}
+
+.main-faq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.faq-caixas-perguntas {
+    width: 545px;
+}
+
+.faq-item {
+    background-color: #dbd8c9;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 40px 10px 10px;
+    position: relative;
+}
+
+.faq-item h2 {
+    font-size: 15px;
+    padding: 20px 0px 17px 0px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #824D5D;
+    text-shadow: none;
+}
+
+.faq-item-div>p {
+    font-size: 13px;
+    font-weight: normal;
+    text-shadow: none !important;
+}
+
+.faq-item-div {
+    transition: all 200ms ease-in-out;
+    height: 0px;
+    overflow: hidden;
+}
+
+.toggle-div-faq {
+    height: 60px;
+}
+
+.faq-icon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all 200ms ease-in-out;
+    color: #824D5D;
+    text-shadow: none;
+}
+
+.toggle-translate-icon {
+    transform: rotate(90deg);
+}
+
+.faq-text-content h1 span {
+    color: #824D5D;
+    font-size: 66px;
+}
+
+.faq-text-content>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #824D5D;
+}
+
+.faq-text-content>div>div:nth-child(2) {
+    font-size: 23px;
+}
+
+.faq-text-content>p {
+    font-size: 34px;
+    color: #824D5D;
+}
+
+.faq-text-content>a {
+    text-decoration: none;
+    background-color: rgb(235, 205, 147);
+    color: #824D5D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: none;
+    transition: all 100ms ease-in-out;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+}
+
+.faq-text-content>a:hover {
+    color: rgb(235, 205, 147);
+    background-color: #824D5D;
+}
+
+.faq-button-responsive {
+    display: none;
+}
+
+.faq-button-responsive>p {
+    font-size: 34px;
+    color: #824D5D;
+    text-align: center;
+    font-size: 25px;
+}
+
+.faq-button-responsive>a {
+    text-decoration: none;
+    background-color: rgb(235, 205, 147);
+    color: #824D5D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: none;
+    transition: all 100ms ease-in-out;
+    font-size: 16px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0px auto;
+}
+
+.faq-button-responsive>a:hover {
+    color: rgb(235, 205, 147);
+    background-color: #824D5D;
+}

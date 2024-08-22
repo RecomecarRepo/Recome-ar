@@ -1,0 +1,185 @@
+@media (max-width: 1600px) {
+    .main-section-capitulos {
+        padding: 120px 30px 180px 30px;
+    }
+}
+
+@media (max-width:1450px) {
+    .brinde-capitulos-cards {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .resumo-capitulo-item h3 {
+        font-size: 22px;
+    }
+
+    .resumo-capitulo-item p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header-content>div {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 883px) {
+    .faq-text-content>p {
+        display: none;
+    }
+
+    .faq-text-content>a {
+        display: none;
+    }
+
+    .faq-button-responsive {
+        display: block;
+    }
+}
+
+@media (max-width:830px) {
+    .main-brinde h1 {
+        font-size: 30px;
+    }
+
+    .subtitulo-brinde {
+        font-size: 22px;
+    }
+
+    .div-animation-hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.582);
+    }
+}
+
+@media (max-width:750px) {
+    .main-feedback video {
+        width: 95%;
+    }
+
+    .main-feedback h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 710px) {
+    .header-content>div h1 {
+        font-size: 40px;
+    }
+
+    .header-content>div p {
+        font-size: 30px;
+    }
+
+    .header-content>div a {
+        font-size: 14px;
+    }
+
+    .header-timer h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main-section-capitulos h1 {
+        font-size: 30px;
+    }
+
+    .resumo-capitulo-item {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .resumo-capitulo-item h3 {
+        font-size: 18px;
+    }
+
+    .resumo-capitulo-item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:580px) {
+    .beneficios-content h1 {
+        font-size: 30px;
+    }
+
+    .beneficios-content p {
+        font-size: 15px;
+    }
+
+    .beneficios-content ul li {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:470px) {
+    .main-section-capitulos h1 {
+        font-size: 20px;
+    }
+
+    .main-section-capitulos h1 span {
+        padding-left: 20px !important;
+    }
+
+    .resumo-capitulo-item {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .faq-text-content>div {
+        justify-content: center;
+    }
+
+    .faq-text-content>p {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .faq-text-content>a {
+        margin: 20px auto 0px auto;
+    }
+}
+
+@media (max-width:420px) {
+    .beneficios-content p {
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .beneficios-content ul {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .beneficios-content ul li {
+        font-size: 16px;
+        margin-top: 10px;
+        list-style-type: none;
+        text-decoration: underline;
+    }
+
+    .faq-text-content h1 span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:380px) {
+    .carousel-item-capitulo {
+        width: 220px;
+    }
+
+    .main-feedback-comentarios img {
+        width: 100%;
+    }
+}
+
+/* @media (max-width: 350px) {
+    .brinde-capitulo-card-item {
+        
+    }
+} */
